@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://fpiptfvjjvuf"]
+
+[ext_resource type="Texture2D" uid="uid://bgu4bocsf3pnd" path="res://cute-cartoon-sleeping-dog-file-with-transparent-background-png.png" id="1_8xr18"]
+
+[node name="francesca scene" type="Node2D"]
+
+[node name="Cute-cartoon-sleeping-dog-file-with-transparent-background-png" type="Sprite2D" parent="."]
+position = Vector2(271, 163)
+scale = Vector2(0.253125, 0.272916)
+texture = ExtResource("1_8xr18")
