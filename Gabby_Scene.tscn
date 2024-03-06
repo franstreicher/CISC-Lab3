@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bg8b3q0fwejqu"]
+
+[ext_resource type="Texture2D" uid="uid://dklcah0qarsc4" path="res://Jump (32x32).png" id="1_n2km6"]
+
+[node name="Gabby Scene" type="Node2D"]
+
+[node name="Jump(32x32)" type="Sprite2D" parent="."]
+position = Vector2(895, 420)
+scale = Vector2(12.375, 12.375)
+texture = ExtResource("1_n2km6")
