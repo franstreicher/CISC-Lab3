@@ -2,10 +2,10 @@
 
 [ext_resource type="Texture2D" uid="uid://c2wcrcaybxqn4" path="res://Fall (32x32).png" id="1_0jrir"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Victoria Scene" type="Node2D"]
 
-[node name="Fall(32x32)" type="Sprite2D" parent="."]
+[node name="Fall Guy" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(245, 231)
-scale = Vector2(5.0625, 7.46875)
+position = Vector2(359, 300)
+scale = Vector2(6.3125, 5.10938)
 texture = ExtResource("1_0jrir")

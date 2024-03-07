@@ -1,10 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://dnwgfil82oj5o"]
+[gd_scene load_steps=4 format=3 uid="uid://dnwgfil82oj5o"]
 
 [ext_resource type="PackedScene" uid="uid://fpiptfvjjvuf" path="res://francesca_scene.tscn" id="1_16kem"]
 [ext_resource type="PackedScene" uid="uid://bg8b3q0fwejqu" path="res://Gabby_Scene.tscn" id="2_o2eqk"]
+[ext_resource type="PackedScene" uid="uid://cio14pamjgagl" path="res://victoria scene.tscn" id="3_wbvpu"]
 
 [node name="MainScene" type="Node2D"]
 
 [node name="francesca scene" parent="." instance=ExtResource("1_16kem")]
 
 [node name="Gabby Scene" parent="." instance=ExtResource("2_o2eqk")]
+
+[node name="Victoria Scene" parent="." instance=ExtResource("3_wbvpu")]
