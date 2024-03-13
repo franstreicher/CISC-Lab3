@@ -1,10 +1,33 @@
-[gd_scene load_steps=2 format=3 uid="uid://bg8b3q0fwejqu"]
+[gd_scene load_steps=6 format=3 uid="uid://bg8b3q0fwejqu"]
 
 [ext_resource type="Texture2D" uid="uid://dklcah0qarsc4" path="res://Jump (32x32).png" id="1_n2km6"]
+[ext_resource type="Texture2D" uid="uid://c2uq7tf3ccxn1" path="res://Grass.png" id="2_13l5l"]
+[ext_resource type="Texture2D" uid="uid://buen87swe7wjw" path="res://Basic Charakter Actions.png" id="3_1ukse"]
+[ext_resource type="Texture2D" uid="uid://c2wcrcaybxqn4" path="res://Fall (32x32).png" id="4_jdegb"]
+[ext_resource type="Script" path="res://playablecharacterone.gd" id="5_cs6mh"]
 
 [node name="Gabby Scene" type="Node2D"]
 
 [node name="Jump(32x32)" type="Sprite2D" parent="."]
-position = Vector2(895, 420)
-scale = Vector2(12.375, 12.375)
+position = Vector2(724, 288)
+scale = Vector2(7.53125, 7.53125)
 texture = ExtResource("1_n2km6")
+
+[node name="Grass" type="Sprite2D" parent="."]
+position = Vector2(299, 746)
+scale = Vector2(3.80357, 3.80357)
+texture = ExtResource("2_13l5l")
+
+[node name="BasicCharakterActions" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1513, 525)
+scale = Vector2(3.59375, 3.59375)
+texture = ExtResource("3_1ukse")
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Fall(32x32)" type="Sprite2D" parent="Node"]
+position = Vector2(273, 267)
+scale = Vector2(8.15625, 8.15625)
+texture = ExtResource("4_jdegb")
+script = ExtResource("5_cs6mh")

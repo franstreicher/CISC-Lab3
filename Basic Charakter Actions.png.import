@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2wcrcaybxqn4"
-path="res://.godot/imported/Fall (32x32).png-8f616bf27f9394cb6194389f95aa54ad.ctex"
+uid="uid://buen87swe7wjw"
+path="res://.godot/imported/Basic Charakter Actions.png-aedcc914e012837c7d6cfa11fb1dd882.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Fall (32x32).png"
-dest_files=["res://.godot/imported/Fall (32x32).png-8f616bf27f9394cb6194389f95aa54ad.ctex"]
+source_file="res://Basic Charakter Actions.png"
+dest_files=["res://.godot/imported/Basic Charakter Actions.png-aedcc914e012837c7d6cfa11fb1dd882.ctex"]
 
 [params]
 
